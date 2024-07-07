@@ -1,6 +1,6 @@
 let tg = window.Telegram.WebApp;
 try{
-document.getElementById("my_text").textContent = tg.initDataUnsafe.user.first_name;
+document.getElementById("my_text").textContent = tg.initDataUnsafe.user.id;
 }
 catch{
     alert("Open in tg")
